@@ -510,8 +510,8 @@ p {
     line-height: 40px;
   }
   .navbar form.search-box {
-    margin-left: 38%;
-    width: 30%;
+    margin-left: 30%;
+    width: 50%!important;
   }
   .header {
     background-color: none;
