@@ -111,7 +111,17 @@ p {
 }
 .navbar form.search-box input {
   font-size: 15px;
-  color: var(--heading-color);
+  color: black;
+  /* border: none; */
+  background: transparent;
+  padding: 10px 35px 10px 20px;
+  width: 90%;
+  border-radius: 30px;
+  border: 2px solid #eee;
+}
+.dark .navbar form.search-box input {
+  font-size: 15px;
+  color: white;
   /* border: none; */
   background: transparent;
   padding: 10px 35px 10px 20px;
@@ -158,10 +168,7 @@ p {
   background: #161c2d !important;
 }
 
-.dark input {
-  color: white !important;
-  border: 1px solid #161c2d;
-}
+
 .dark #switchButton {
   background: none;
   border: none;
@@ -229,6 +236,13 @@ p {
 }
 .dark .content-top h4 {
   color: white;
+}
+.dark .navbar-nav {
+  background-color: #161c2d;
+}
+.dark .footer__form input {
+
+  color: black !important;
 }
 /* carousel  */
 .carousel-item {
@@ -523,9 +537,7 @@ p {
     background: #fff;
     margin-bottom: 15px;
   }
-  .dark .navbar-nav {
-    background-color: #161c2d;
-  }
+  
   .carousel-caption {
     top: 10%;
   }
