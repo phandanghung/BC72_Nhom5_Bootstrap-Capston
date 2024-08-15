@@ -838,7 +838,7 @@ footer {
 }
 
 .footer__bottom {
-  padding: 200px 0 0;
+  padding: 100px 0 0;
 }
 
 .footer__item h6 {
@@ -881,7 +881,7 @@ footer {
   color: white;
 }
 .footer__item p {
-  font-size: 18px;
+  font-size: 14px;
   color: #cecece;
   line-height: 30px;
 }
